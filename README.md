@@ -58,6 +58,17 @@ Final structure should look like this:
       SKILL.md
 ```
 
+## Inside the skill
+
+This is not just a short prompt. The skill now includes structured guidance for:
+
+- plugin targeting before edits
+- bug-fix, feature, refactor, and audit strategies
+- command, listener, config, async, and scheduler playbooks
+- reload-safe lifecycle handling
+- structural decision rules for classes, config shape, and abstraction
+- failure triage and validation checklists
+
 ## Example prompts
 
 Ask Cursor things like:
