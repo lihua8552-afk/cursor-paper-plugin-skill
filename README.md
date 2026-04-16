@@ -2,6 +2,7 @@
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 ![Cursor Skill](https://img.shields.io/badge/Cursor-Skill-blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/lihua8552-afk/minecraft-paper-plugin-dev-skill?style=social)
 ![Minecraft](https://img.shields.io/badge/Minecraft-Paper%20%7C%20Bukkit%20%7C%20Spigot-5b8c2a)
 ![Java](https://img.shields.io/badge/Java-21%2B-orange)
 ![Build Tool](https://img.shields.io/badge/Maven-friendly-c71a36)
@@ -30,6 +31,20 @@ Generic AI can write Java, but it often misses the Paper/Bukkit details that bre
 - drift between Java code and `plugin.yml`
 - noisy warning-heavy plugin updates
 - large, unnecessary file rewrites
+
+## Before vs after
+
+**Without a plugin-aware skill**
+- generic Java changes that ignore Bukkit lifecycle ownership
+- reload support that silently duplicates listeners or tasks
+- async code that touches Bukkit APIs unsafely
+- features added in Java without fully updating `plugin.yml`, permissions, or config
+
+**With this skill**
+- tighter, smaller edits with clearer ownership
+- safer reload and shutdown behavior
+- cleaner separation between async work and main-thread mutation
+- more consistent command, config, permission, and metadata updates
 
 ## Best fit
 
