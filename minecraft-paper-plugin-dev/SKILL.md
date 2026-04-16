@@ -1,9 +1,9 @@
 ---
-name: mc-paper-plugin-dev
+name: minecraft-paper-plugin-dev
 description: Build, modify, and review Minecraft Paper/Bukkit plugins. Use when working on Java plugin features, commands, listeners, plugin.yml, safe reload flows, warning-free startup, unified prefix/logging conventions, async safety, memory-leak prevention, and Maven packaging for Paper 1.21+ plugins.
 ---
 
-# MC Paper Plugin Development
+# Minecraft Paper Plugin Development
 
 Use this skill for Minecraft `Paper/Bukkit + Maven + Java 21` plugin projects.
 Always narrow the task to one concrete plugin directory before reading, editing, building, or validating.
